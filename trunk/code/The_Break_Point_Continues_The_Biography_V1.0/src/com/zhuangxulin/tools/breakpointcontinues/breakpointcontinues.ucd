@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="breakpointcontinues" size="1275,1048" id="com.zhuangxulin.tools.breakpointcontinues" metadata="uml2-1.0" initialized="true" tag="10" key="32303037303533312D3130205468655F427265616B5F506F696E745F436F6E74696E7565735F5468655F42696F6772617068795F56312E30">
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.4/@sourceConnections.1 //@children.2/@sourceConnections.2" name="Utility" location="567,306" size="74,121" id="com.zhuangxulin.tools.breakpointcontinues/Utility" runTimeClassModel="Utility(),sleep(I),log(Ljava.lang.String;),log(I)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="50,72">
+      <children xsi:type="editmodel:MethodEditModel" name="Utility" id="com.zhuangxulin.tools.breakpointcontinues/Utility#Utility()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="log" id="com.zhuangxulin.tools.breakpointcontinues/Utility#log(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="log" id="com.zhuangxulin.tools.breakpointcontinues/Utility#log(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="sleep" id="com.zhuangxulin.tools.breakpointcontinues/Utility#sleep(I)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.2/@sourceConnections.0 //@children.2/@sourceConnections.3 //@children.3/@sourceConnections.0" name="SiteInfoBean" location="980,727" size="110,301" id="com.zhuangxulin.tools.breakpointcontinues/SiteInfoBean" runTimeClassModel="getSSiteURL(),getSFilePath(),getNSplitter(),sSiteURL,setSFilePath(Ljava.lang.String;),setSFileName(Ljava.lang.String;),setNSplitter(I),sFileName,setSSiteURL(Ljava.lang.String;),sFilePath,getSFileName(),SiteInfoBean(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;I),nSplitter,SiteInfoBean()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="87,72">
+      <children xsi:type="editmodel:AttributeEditModel" name="nSplitter" id="com.zhuangxulin.tools.breakpointcontinues/SiteInfoBean#nSplitter"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="sFileName" id="com.zhuangxulin.tools.breakpointcontinues/SiteInfoBean#sFileName"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="sFilePath" id="com.zhuangxulin.tools.breakpointcontinues/SiteInfoBean#sFilePath"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="sSiteURL" id="com.zhuangxulin.tools.breakpointcontinues/SiteInfoBean#sSiteURL"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="80,180">
+      <children xsi:type="editmodel:MethodEditModel" name="SiteInfoBean" id="com.zhuangxulin.tools.breakpointcontinues/SiteInfoBean#SiteInfoBean()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="SiteInfoBean" id="com.zhuangxulin.tools.breakpointcontinues/SiteInfoBean#SiteInfoBean(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getNSplitter" id="com.zhuangxulin.tools.breakpointcontinues/SiteInfoBean#getNSplitter()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getSFileName" id="com.zhuangxulin.tools.breakpointcontinues/SiteInfoBean#getSFileName()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getSFilePath" id="com.zhuangxulin.tools.breakpointcontinues/SiteInfoBean#getSFilePath()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getSSiteURL" id="com.zhuangxulin.tools.breakpointcontinues/SiteInfoBean#getSSiteURL()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setNSplitter" id="com.zhuangxulin.tools.breakpointcontinues/SiteInfoBean#setNSplitter(I)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setSFileName" id="com.zhuangxulin.tools.breakpointcontinues/SiteInfoBean#setSFileName(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setSFilePath" id="com.zhuangxulin.tools.breakpointcontinues/SiteInfoBean#setSFilePath(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setSSiteURL" id="com.zhuangxulin.tools.breakpointcontinues/SiteInfoBean#setSSiteURL(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.4/@sourceConnections.0 //@children.3/@sourceConnections.1" name="SiteFileFetch" location="786,414" size="145,247" id="com.zhuangxulin.tools.breakpointcontinues/SiteFileFetch" runTimeClassModel="getFileSize(),run(),tmpFile,SiteFileFetch(Lcom.zhuangxulin.tools.breakpointcontinues.SiteInfoBean;),nStartPos,bStop,output,siteStop(),nEndPos,nFileLength,bFirst">
+    <children xsi:type="editmodel:CompartmentEditModel" size="122,126">
+      <children xsi:type="editmodel:AttributeEditModel" name="bFirst" id="com.zhuangxulin.tools.breakpointcontinues/SiteFileFetch#bFirst"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="bStop" id="com.zhuangxulin.tools.breakpointcontinues/SiteFileFetch#bStop"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="nEndPos" id="com.zhuangxulin.tools.breakpointcontinues/SiteFileFetch#nEndPos"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="nFileLength" id="com.zhuangxulin.tools.breakpointcontinues/SiteFileFetch#nFileLength"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="nStartPos" id="com.zhuangxulin.tools.breakpointcontinues/SiteFileFetch#nStartPos"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="output" id="com.zhuangxulin.tools.breakpointcontinues/SiteFileFetch#output"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="tmpFile" id="com.zhuangxulin.tools.breakpointcontinues/SiteFileFetch#tmpFile"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="75,72">
+      <children xsi:type="editmodel:MethodEditModel" name="SiteFileFetch" id="com.zhuangxulin.tools.breakpointcontinues/SiteFileFetch#SiteFileFetch(Lcom.zhuangxulin.tools.breakpointcontinues.SiteInfoBean;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getFileSize" id="com.zhuangxulin.tools.breakpointcontinues/SiteFileFetch#getFileSize()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="run" id="com.zhuangxulin.tools.breakpointcontinues/SiteFileFetch#run()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="siteStop" id="com.zhuangxulin.tools.breakpointcontinues/SiteFileFetch#siteStop()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="com.zhuangxulin.tools.breakpointcontinues/SiteInfoBean@siteInfoBean+com.zhuangxulin.tools.breakpointcontinues/SiteFileFetch@" source="//@children.2" target="//@children.1" targetEnd="//@children.2/@sourceConnections.0/@children.2" label="//@children.2/@sourceConnections.0/@children.0" sourceEnd="//@children.2/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,10" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="135,247" id="com.zhuangxulin.tools.breakpointcontinues/SiteInfoBean@siteInfoBean+com.zhuangxulin.tools.breakpointcontinues/SiteFileFetch@|com.zhuangxulin.tools.breakpointcontinues/SiteFileFetch#" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="siteInfoBean" location="0,10" id="com.zhuangxulin.tools.breakpointcontinues/SiteInfoBean@siteInfoBean+com.zhuangxulin.tools.breakpointcontinues/SiteFileFetch@|com.zhuangxulin.tools.breakpointcontinues/SiteInfoBean#siteInfoBean" multiplicityLabel="//@children.2/@sourceConnections.0/@children.2/@children.1" roleLabel="//@children.2/@sourceConnections.0/@children.2/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" ~ siteInfoBean" location="915,744" size="58,10" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="967,720" size="6,10" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.zhuangxulin.tools.breakpointcontinues/SiteFileFetch-Soyatec::Import->com.zhuangxulin.tools.breakpointcontinues/FileSplitterFetch*com.zhuangxulin.tools.breakpointcontinues/SiteFileFetch-Standard::Call->com.zhuangxulin.tools.breakpointcontinues/FileSplitterFetch*com.zhuangxulin.tools.breakpointcontinues/SiteFileFetch-Soyatec::Access->com.zhuangxulin.tools.breakpointcontinues/FileSplitterFetch*com.zhuangxulin.tools.breakpointcontinues/SiteFileFetch-Standard::Instantiate->com.zhuangxulin.tools.breakpointcontinues/FileSplitterFetch*com.zhuangxulin.tools.breakpointcontinues/SiteFileFetch-Soyatec::Import->com.zhuangxulin.tools.breakpointcontinues/FileSplitterFetch" source="//@children.2" target="//@children.4" targetEnd="//@children.2/@sourceConnections.1/@children.2" label="//@children.2/@sourceConnections.1/@children.0" sourceEnd="//@children.2/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import, Access, Instantiate»" size="132,10" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,15" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="111,229"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.zhuangxulin.tools.breakpointcontinues/SiteFileFetch-Standard::Call->com.zhuangxulin.tools.breakpointcontinues/Utility" source="//@children.2" target="//@children.0" targetEnd="//@children.2/@sourceConnections.2/@children.2" label="//@children.2/@sourceConnections.2/@children.0" sourceEnd="//@children.2/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call»" size="23,10" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,6" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="74,114"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.zhuangxulin.tools.breakpointcontinues/SiteFileFetch-Standard::Call->com.zhuangxulin.tools.breakpointcontinues/SiteInfoBean*com.zhuangxulin.tools.breakpointcontinues/SiteFileFetch-Soyatec::Import->com.zhuangxulin.tools.breakpointcontinues/SiteInfoBean" source="//@children.2" target="//@children.1" targetEnd="//@children.2/@sourceConnections.3/@children.2" label="//@children.2/@sourceConnections.3/@children.0" sourceEnd="//@children.2/@sourceConnections.3/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import»" size="55,10" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="145,237" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="15,0"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="TestMethod" location="1151,406" size="104,85" id="com.zhuangxulin.tools.breakpointcontinues/TestMethod" runTimeClassModel="main([Ljava.lang.String;),TestMethod()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="73,36">
+      <children xsi:type="editmodel:MethodEditModel" name="TestMethod" id="com.zhuangxulin.tools.breakpointcontinues/TestMethod#TestMethod()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="main" id="com.zhuangxulin.tools.breakpointcontinues/TestMethod#main([Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.zhuangxulin.tools.breakpointcontinues/TestMethod-Standard::Instantiate->com.zhuangxulin.tools.breakpointcontinues/SiteInfoBean*com.zhuangxulin.tools.breakpointcontinues/TestMethod-Soyatec::Import->com.zhuangxulin.tools.breakpointcontinues/SiteInfoBean" source="//@children.3" target="//@children.1" targetEnd="//@children.3/@sourceConnections.0/@children.2" label="//@children.3/@sourceConnections.0/@children.0" sourceEnd="//@children.3/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Instantiate»" size="81,10" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="35,85" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="110,10"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.zhuangxulin.tools.breakpointcontinues/TestMethod-Standard::Call->com.zhuangxulin.tools.breakpointcontinues/SiteFileFetch*com.zhuangxulin.tools.breakpointcontinues/TestMethod-Standard::Instantiate->com.zhuangxulin.tools.breakpointcontinues/SiteFileFetch*com.zhuangxulin.tools.breakpointcontinues/TestMethod-Soyatec::Import->com.zhuangxulin.tools.breakpointcontinues/SiteFileFetch" source="//@children.3" target="//@children.2" targetEnd="//@children.3/@sourceConnections.1/@children.2" label="//@children.3/@sourceConnections.1/@children.0" sourceEnd="//@children.3/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import, Instantiate»" size="100,10" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,46" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="145,38"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.5/@sourceConnections.0 //@children.2/@sourceConnections.1" name="FileSplitterFetch" location="371,208" size="126,229" id="com.zhuangxulin.tools.breakpointcontinues/FileSplitterFetch" runTimeClassModel="splitterStop(),sURL,run(),logResponseHead(Ljava.net.HttpURLConnection;),FileSplitterFetch(Ljava.lang.String;Ljava.lang.String;JJI),nStartPos,nThreadID,bStop,nEndPos,bDownOver">
+    <children xsi:type="editmodel:CompartmentEditModel" size="101,108">
+      <children xsi:type="editmodel:AttributeEditModel" name="bDownOver" id="com.zhuangxulin.tools.breakpointcontinues/FileSplitterFetch#bDownOver"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="bStop" id="com.zhuangxulin.tools.breakpointcontinues/FileSplitterFetch#bStop"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="nEndPos" id="com.zhuangxulin.tools.breakpointcontinues/FileSplitterFetch#nEndPos"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="nStartPos" id="com.zhuangxulin.tools.breakpointcontinues/FileSplitterFetch#nStartPos"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="nThreadID" id="com.zhuangxulin.tools.breakpointcontinues/FileSplitterFetch#nThreadID"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="sURL" id="com.zhuangxulin.tools.breakpointcontinues/FileSplitterFetch#sURL"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="96,72">
+      <children xsi:type="editmodel:MethodEditModel" name="FileSplitterFetch" id="com.zhuangxulin.tools.breakpointcontinues/FileSplitterFetch#FileSplitterFetch(Ljava.lang.String;Ljava.lang.String;JJI)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="logResponseHead" id="com.zhuangxulin.tools.breakpointcontinues/FileSplitterFetch#logResponseHead(Ljava.net.HttpURLConnection;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="run" id="com.zhuangxulin.tools.breakpointcontinues/FileSplitterFetch#run()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="splitterStop" id="com.zhuangxulin.tools.breakpointcontinues/FileSplitterFetch#splitterStop()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="com.zhuangxulin.tools.breakpointcontinues/FileSplitterFetch@fileSplitterFetch+com.zhuangxulin.tools.breakpointcontinues/SiteFileFetch@" source="//@children.4" target="//@children.2" targetEnd="//@children.4/@sourceConnections.0/@children.2" label="//@children.4/@sourceConnections.0/@children.0" sourceEnd="//@children.4/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,10" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="fileSplitterFetch" location="126,217" id="com.zhuangxulin.tools.breakpointcontinues/FileSplitterFetch@fileSplitterFetch+com.zhuangxulin.tools.breakpointcontinues/SiteFileFetch@|com.zhuangxulin.tools.breakpointcontinues/FileSplitterFetch#fileSplitterFetch" attachSource="true" multiplicityLabel="//@children.4/@sourceConnections.0/@children.1/@children.1" roleLabel="//@children.4/@sourceConnections.0/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" ~ fileSplitterFetch" location="504,408" size="71,10" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="*" location="504,432" size="4,10" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,11" id="com.zhuangxulin.tools.breakpointcontinues/FileSplitterFetch@fileSplitterFetch+com.zhuangxulin.tools.breakpointcontinues/SiteFileFetch@|com.zhuangxulin.tools.breakpointcontinues/SiteFileFetch#"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.zhuangxulin.tools.breakpointcontinues/FileSplitterFetch-Standard::Call->com.zhuangxulin.tools.breakpointcontinues/Utility" source="//@children.4" target="//@children.0" targetEnd="//@children.4/@sourceConnections.1/@children.2" label="//@children.4/@sourceConnections.1/@children.0" sourceEnd="//@children.4/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call»" size="23,10" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="126,158" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,60"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="com.zhuangxulin.tools.breakpointcontinues/FileSplitterFetch-Standard::Call->com.zhuangxulin.tools.breakpointcontinues/FileAccessI*com.zhuangxulin.tools.breakpointcontinues/FileSplitterFetch-Standard::Instantiate->com.zhuangxulin.tools.breakpointcontinues/FileAccessI*com.zhuangxulin.tools.breakpointcontinues/FileSplitterFetch-Soyatec::Import->com.zhuangxulin.tools.breakpointcontinues/FileAccessI" source="//@children.4" target="//@children.5" targetEnd="//@children.4/@sourceConnections.2/@children.2" label="//@children.4/@sourceConnections.2/@children.0" sourceEnd="//@children.4/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import, Instantiate»" size="100,10" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,12" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="145,139"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.4/@sourceConnections.2" name="FileAccessI" location="50,50" size="160,139" id="com.zhuangxulin.tools.breakpointcontinues/FileAccessI" runTimeClassModel="write([BII),FileAccessI(Ljava.lang.String;J),oSavedFile,nPos,FileAccessI()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="137,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="nPos" id="com.zhuangxulin.tools.breakpointcontinues/FileAccessI#nPos"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="oSavedFile" id="com.zhuangxulin.tools.breakpointcontinues/FileAccessI#oSavedFile"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="69,54">
+      <children xsi:type="editmodel:MethodEditModel" name="FileAccessI" id="com.zhuangxulin.tools.breakpointcontinues/FileAccessI#FileAccessI(Ljava.lang.String;J)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="FileAccessI" id="com.zhuangxulin.tools.breakpointcontinues/FileAccessI#FileAccessI()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="write" id="com.zhuangxulin.tools.breakpointcontinues/FileAccessI#write([BII)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="com.zhuangxulin.tools.breakpointcontinues/FileAccessI@fileAccessI+com.zhuangxulin.tools.breakpointcontinues/FileSplitterFetch@" source="//@children.5" target="//@children.4" targetEnd="//@children.5/@sourceConnections.0/@children.2" label="//@children.5/@sourceConnections.0/@children.0" sourceEnd="//@children.5/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,10" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="fileAccessI" location="160,129" id="com.zhuangxulin.tools.breakpointcontinues/FileAccessI@fileAccessI+com.zhuangxulin.tools.breakpointcontinues/FileSplitterFetch@|com.zhuangxulin.tools.breakpointcontinues/FileAccessI#fileAccessI" attachSource="true" multiplicityLabel="//@children.5/@sourceConnections.0/@children.1/@children.1" roleLabel="//@children.5/@sourceConnections.0/@children.1/@children.0" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name=" ~ fileAccessI" location="217,162" size="51,10" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="217,186" size="6,10" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,0" id="com.zhuangxulin.tools.breakpointcontinues/FileAccessI@fileAccessI+com.zhuangxulin.tools.breakpointcontinues/FileSplitterFetch@|com.zhuangxulin.tools.breakpointcontinues/FileSplitterFetch#" roleLabel="//@children.5/@sourceConnections.0/@children.2/@children.0">
+        <children xsi:type="editmodel:LabelEditModel" location="374,191" size="0,10" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" level="-1" showScope="InPackage" properties="wireOptions=7;Product=eUML2"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showPublicMethods="true" showPackageMethods="true" showStaticMethods="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3" showAttributeProperty="true"/>
+</editmodel:ClassDiagramEditModel>
